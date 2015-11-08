@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Licensed under the Apache License, Version 2.0 (the "License"); you may not
+   use this file except in compliance with the License. You may obtain a copy of
+   the License at
+  
+     http://www.apache.org/licenses/LICENSE-2.0
+  
+   Unless required by applicable law or agreed to in writing, software 
+   distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+   WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+   License for the specific language governing permissions and limitations under
+   the License. 
+-->
+<calkulation>
+    <title></title>
+    <items>
+        <item>
+            <title></title>
+            <estimation_fp>3</estimation_fp>
+            <estimation_tm>5</estimation_tm>
+            <duration formula="estimation_fp div 0.75">4.0</duration>
+            <phase choicesFormula="//phase/title">UI prototype</phase>
+            <milestone choices="M1,M2,M3">M1</milestone>
+        </item>
+    </items>
+    <phases>
+        <phase>
+            <title>UI prototype</title>
+            <completion_int>22.10.2012</completion_int>
+            <completion_golive>11.11.2012</completion_golive>
+        </phase>
+    </phases>
+</calkulation>
